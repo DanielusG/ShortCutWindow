@@ -1,8 +1,8 @@
-# ShortCutWindow
+# ShortCutWindow ✂️🖼️
 
-How many times have you had a website that you visit very often, such as a translator like Google Translator or DeepL. Or do you often visit ChatGPT to ask questions on the fly while you are working and studying.
+How many times have you had a website that you visit very often, such as a translator like Google Translator or DeepL? Or do you often visit ChatGPT to ask questions on the fly while you are working and studying? 🤔
 
-Going to the browser each time and interrupting what you are doing could be frustrating, especially if you do it often.
+Going to the browser each time and interrupting what you are doing could be frustrating, especially if you do it often. 🙄
 
 That's why this software was born. Easily create a configuration file (instructions below) and create/place your favorite websites and access them with a shortcut very quickly and effectively!
 
