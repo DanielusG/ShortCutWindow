@@ -7,7 +7,8 @@ class Browser(QMainWindow):
     def __init__(self, link: str,geometry: dict,name:str, *args, **kwargs):
         super(Browser, self).__init__(*args, **kwargs)
         self.setWindowTitle(name)
-        self.setWindowFlags(Qt.Tool | Qt.FramelessWindowHint | Qt.WindowStaysOnTopHint)
+        self.setWindowFlags(Qt.WindowStaysOnTopHint | Qt.Tool | Qt.WindowStaysOnTopHint)
+        self.setFocusPolicy(Qt.StrongFocus)
         self.geometry = geometry
         self.layout = QVBoxLayout()
         self.browser = QWebEngineView()
@@ -24,17 +25,21 @@ class Browser(QMainWindow):
     def showBrowser(self):
         print("show")
         self.isVisible = True
-        self.setWindowOpacity(1)
-        self.showNormal()
+        self.raise_()
         self.activateWindow()
+        self.setWindowOpacity(1)
+        self.setFocus(True)
+        
+        
 
     def hideBrowser(self):
         self.isVisible = False
         print("hide")
         self.setWindowOpacity(0)
         self.move(self.geometry["x"],self.geometry["y"])
-
+        self.setFocus(False)
         
+
     def toggleBrowser(self):
         if self.isVisible:
             self.hideBrowser()

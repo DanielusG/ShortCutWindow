@@ -8,5 +8,4 @@ browser = WindowsManager()
 
 if __name__ == '__main__':
     browser.show()
-    app.exec_()
-    
+    app.exec_() 
