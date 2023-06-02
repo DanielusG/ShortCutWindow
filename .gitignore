@@ -1,4 +1,5 @@
 venv/
+venvW/
 __pycache__/
 *.pt
 *.db
