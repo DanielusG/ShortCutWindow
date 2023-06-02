@@ -1,0 +1,30 @@
+[
+    {
+        "link": "https://www.deepl.com/it/translator",
+        "shortcut": [
+            "ctrl",
+            "f1"
+        ],
+        "geometry": {
+            "x": 0,
+            "y": 0,
+            "width": 800,
+            "height": 600
+        },
+        "name": "DeepL"
+    },
+    {
+        "link": "https://chat.openai.com/chat",
+        "shortcut": [
+            "ctrl",
+            "f2"
+        ],
+        "geometry": {
+            "x": 800,
+            "y": 0,
+            "width": 500,
+            "height": 600
+        },
+        "name": "OpenAI Chat"
+    }
+]
