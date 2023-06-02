@@ -4,7 +4,6 @@ class ShortCutManager():
   cmb = []
   
   current = set()
-  
 
   def __init__(self, execute, cmbstr: list[str]):
     self.execute = execute
